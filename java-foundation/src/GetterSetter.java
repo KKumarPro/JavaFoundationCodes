@@ -1,3 +1,5 @@
+//Getter-Setter Method, also known as Encapsulation
+
 class Myself{
     private int age;
     private String name;
