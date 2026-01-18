@@ -1,3 +1,5 @@
+//Methods: A method is a block of codes, that performs a specific task and can be executed when called.
+
 public class Methods {
     static void line()
     {
