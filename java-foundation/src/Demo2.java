@@ -1,3 +1,7 @@
+//Class: A class is a blueprint, that defines the property and behavior of objects,
+// that tells how the objects of the class work.
+
+
 import java.util.*;
 
 public class Demo2 {
