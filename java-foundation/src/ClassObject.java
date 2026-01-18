@@ -1,3 +1,6 @@
+//Class and objects
+//Object: An object is a real time instance of a class that occupies memory and represents a real world entity.
+
 class Person{
     String name;
     int age;
