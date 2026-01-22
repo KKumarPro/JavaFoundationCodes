@@ -1,3 +1,5 @@
+//Use of Array list (Collections)
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
