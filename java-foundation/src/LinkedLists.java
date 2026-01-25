@@ -1,3 +1,6 @@
+//LinkedList is a part of list in the topic "Collection"
+//Collection --> List --> LinkedList
+
 import java.util.LinkedList;
 
 public class LinkedLists {
