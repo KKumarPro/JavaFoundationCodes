@@ -1,4 +1,5 @@
 //Example of Set --> HashSet
+//Hash-Set is a set implementation which uses Hashing to store unique elements, and uses HashMap for storage
 
 import java.util.*;
 public class Sets {
