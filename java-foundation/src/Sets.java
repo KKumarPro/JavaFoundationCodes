@@ -1,4 +1,4 @@
-//Example of Set
+//Example of Set --> HashSet
 
 import java.util.*;
 public class Sets {
