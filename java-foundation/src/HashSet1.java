@@ -1,3 +1,5 @@
+//HashSet is a pert of sets
+
 import java.io.*;
 import java.util.*;
 import java.text.*;
