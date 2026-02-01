@@ -1,3 +1,5 @@
+//Basic input taken
+
 import java.util.Scanner;
 
 public class Adult {
