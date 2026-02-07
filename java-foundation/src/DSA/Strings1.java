@@ -7,6 +7,7 @@ public class Strings1 {
         System.out.print("Enter a String: ");
         String name = sc.nextLine();
         System.out.println(name);
+        System.out.println(name.length());
 
         String reverse = "";
         for(int i = name.length()-1; i >= 0; i--){
