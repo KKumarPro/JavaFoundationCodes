@@ -1,3 +1,5 @@
+//Deletion from any position
+
 package DSA;
 import java.util.Scanner;
 
