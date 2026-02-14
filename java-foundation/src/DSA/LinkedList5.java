@@ -1,3 +1,5 @@
+//LinkedList form the collections
+
 package DSA;
 
 import java.util.LinkedList;
