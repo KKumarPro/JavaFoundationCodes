@@ -14,6 +14,8 @@ public class LinkedList5 {
 
         list.addFirst(5);
         list.addLast(40);
+        list.add(2,200);
+        list.add(100);
         System.out.println(list);
 
         list.removeFirst();
