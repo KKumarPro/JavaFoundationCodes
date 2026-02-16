@@ -1,6 +1,12 @@
 import java.util.Scanner;
 
 public class Test1 {
+    public static void printArray(int[] arr){
+        for(int x : arr){
+            System.out.print(x+" ");
+        }
+        System.out.println();
+    }
     public static void main(String[] a){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of elements: ");
@@ -12,10 +18,7 @@ public class Test1 {
         for(int i=0; i<arr.length; i++){
             arr[i] = sc.nextInt();
         }
-        for(int x:arr){
-            System.out.print(x+" ");
-        }
-        System.out.println();
+        printArray(arr);
 
         //Reversing the array
         for(int i=0; i<arr.length/2; i++){
@@ -24,10 +27,7 @@ public class Test1 {
                 arr[arr.length-i-1] = temp;
 
         }
-        for(int x:arr){
-            System.out.print(x+" ");
-        }
-        System.out.println();
+        printArray(arr);
 
         //Sorting the array
         for(int i=0; i<arr.length-1; i++){
@@ -39,10 +39,7 @@ public class Test1 {
                 }
             }
         }
-        for(int x:arr){
-            System.out.print(x+" ");
-        }
-        System.out.println();
+        printArray(arr);
 
         //Searching the elements in the array
         System.out.print("Enter the Element to search: ");
