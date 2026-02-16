@@ -46,6 +46,17 @@ public class Test1 {
         System.out.println();
 
         //Searching the elements in the array
-
+        System.out.print("Enter the Element to search: ");
+        int key = sc.nextInt();
+        boolean value = false;
+        for(int i=0; i<arr.length; i++){
+            if(key == arr[i]){
+                System.out.println("The element is present at index "+i);
+                value = true;
+                break;
+            }
+        }
+        if(!value)
+            System.out.println("Not Found!");
     }
 }
