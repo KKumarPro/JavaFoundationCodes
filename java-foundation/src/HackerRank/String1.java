@@ -18,7 +18,7 @@ public class String1 {
         else if (result1 > 0)
             System.out.println("Yes");
         else
-            System.out.println("Equal");
+            System.out.println("No");
 
         //Capitalize the first letter
         String combine = (n1+ " " +n2).trim();
