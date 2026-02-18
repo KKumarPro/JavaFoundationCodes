@@ -12,15 +12,26 @@ public class String1 {
         System.out.println(count);
 
         //alphabetically / lexicographically
-        int result = n1.compareTo(n2);
-        if(result < 0)
+        int result1 = n1.compareTo(n2);
+        if(result1 < 0)
             System.out.println("No");
-        else if (result > 0)
+        else if (result1 > 0)
             System.out.println("Yes");
         else
             System.out.println("Equal");
 
         //Capitalize the first letter
+        String combine = (n1+ " " +n2).trim();
+        String result2 = "";
+        String[] words = combine.split("\\s+");
+        for(String word : words){
+            if(word.length() > 0){
+                String first = word.substring(0,1).toUpperCase();
+                String rest = word.substring(1).toLowerCase();
+                result2 = result2 + first + rest + " ";
+            }
+        }
+        System.out.println(result2.trim());
 
         sc.close();
     }
