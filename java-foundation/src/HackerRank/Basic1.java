@@ -1,3 +1,5 @@
+// Sample Java certification test question
+
 package HackerRank;
 
 import java.io.*;
