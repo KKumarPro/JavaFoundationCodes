@@ -1,3 +1,5 @@
+//To find the smallest and the largest word ass per the Dictionary from the word given by the user
+
 package HackerRank;
 import java.util.Scanner;
 
