@@ -1,3 +1,5 @@
+//Testing all the variables in Java
+
 public class Variables {
     public static void main(String[] args)
     {
