@@ -4,6 +4,7 @@ public class Variables {
     public static void main(String[] args)
     {
         int i = 100;
+        long l = 99999999;
         float f = 9.9f;
         double d = 99.989;
         char c = 'A';
@@ -11,6 +12,7 @@ public class Variables {
         boolean b = true;
 
         System.out.println(i);
+        System.out.println(l);
         System.out.println(f);
         System.out.println(d);
         System.out.println(c);
