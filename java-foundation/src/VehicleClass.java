@@ -1,3 +1,5 @@
+//Single Inheritance
+
 public class VehicleClass {
     public static void main(String[] a)
     {
