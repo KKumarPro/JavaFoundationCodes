@@ -1,3 +1,5 @@
+//Opening and closing brackets checking using Stack
+
 import java.util.*;
 
 public class JavaStack {
