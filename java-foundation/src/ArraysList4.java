@@ -1,3 +1,5 @@
+//ArrayList is a part of collections
+
 import java.util.*;
 
 public class ArraysList4{
