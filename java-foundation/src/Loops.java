@@ -1,4 +1,4 @@
-//Use of for loop
+//Use of for loop- Example code
 
 public class Loops {
     public static void main(String[] args) {
